@@ -1,0 +1,30 @@
+@import 'flex';
+@import 'box';
+@import 'pos';
+@import 'text';
+
+body, .bg-1 {
+  background: #0e0e2a;
+  color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+main {
+  max-width: 1200px;
+  // min-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.hover-1 {
+  cursor: pointer;
+  &:hover {
+    opacity: .9;
+  }
+}
+.bg-pink-1 {
+  background: linear-gradient(90deg, #d7aef5, #9fa3f4);
+}
+
