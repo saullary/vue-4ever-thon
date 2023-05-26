@@ -1,10 +1,35 @@
 <template>
   <div class="d-flex">
     <div class="flex-2">
-      <border-wrap> hhh </border-wrap>
+      <border-wrap>
+        <h1 class="fz-50 pos-a z-10">TEMPLATE-A-THON</h1>
+        <div class="fz-30 op-9 pos-a btm-0 left-0 z-10">1 JUNE - 31 JUNE</div>
+        <div class="y-center" style="right: -20px">
+          <img src="/img/begin-computer.png" height="220" />
+        </div>
+      </border-wrap>
+      <div class="mt-5 d-flex">
+        <border-wrap color="blue" class="flex-1">
+          <div class="y-center" style="right: -20px">
+            <img src="/img/begin-mass.png" height="220" />
+          </div>
+        </border-wrap>
+        <border-wrap class="flex-1 ml-5">
+          <h2>TOTAL PRIZE POOL</h2>
+          <h3 class="fz-40 mt-4">50,000,000</h3>
+          <div class="pink-1 mt-3">4EVER</div>
+          <div class="pos-a btm-0 right-0">
+            <img src="/img/begin-coin.png" height="120" />
+          </div>
+        </border-wrap>
+      </div>
     </div>
     <div class="flex-1 ml-5">
-      <border-wrap color="blue"> ddd </border-wrap>
+      <border-wrap color="blue">
+        <div class="pos-center">
+          <img src="/img/begin-ball.png" height="240" />
+        </div>
+      </border-wrap>
     </div>
   </div>
 </template>

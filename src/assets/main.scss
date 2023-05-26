@@ -3,6 +3,9 @@
 @import 'pos';
 @import 'text';
 
+body {
+  font-family: serif;
+}
 body, .bg-1 {
   background: #0e0e2a;
   color: #fff;
@@ -27,4 +30,6 @@ main {
 .bg-pink-1 {
   background: linear-gradient(90deg, #d7aef5, #9fa3f4);
 }
-
+.pink-1 {
+  color: #FDA9FF;
+}

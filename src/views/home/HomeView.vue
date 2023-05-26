@@ -11,7 +11,7 @@ import SectionBegin from "./section-begin.vue";
       }}</span>
       <div class="bg-pink-1 btn-1 bdrs-8 hover-1">Join</div>
     </header>
-
+    <div class="pa-5"></div>
     <SectionBegin></SectionBegin>
   </main>
 </template>

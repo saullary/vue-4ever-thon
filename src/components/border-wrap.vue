@@ -2,7 +2,9 @@
   <div :class="'wrap-' + color">
     <div class="bg-1">
       <div class="bd-1">
-        <slot></slot>
+        <div class="pos-r" style="min-height: 200px">
+          <slot></slot>
+        </div>
       </div>
     </div>
   </div>
@@ -29,7 +31,6 @@ div[class^="wrap-"] {
   }
 }
 .bd-1 {
-  min-height: 260px;
   padding: 30px;
   overflow: hidden;
 }
