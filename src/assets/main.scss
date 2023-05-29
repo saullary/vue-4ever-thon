@@ -3,8 +3,13 @@
 @import 'pos';
 @import 'text';
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Light-6.otf')
+}
+
 body {
-  font-family: serif;
+  font-family: Montserrat, serif; // 
 }
 body, .bg-1 {
   background: #0e0e2a;
@@ -15,21 +20,35 @@ body, .bg-1 {
   padding: 0;
   line-height: 1;
 }
-main {
-  max-width: 1200px;
+.main {
+  max-width: 1100px;
   // min-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 }
-.hover-1 {
+.hover-1, .link, a {
   cursor: pointer;
   &:hover {
     opacity: .9;
   }
+}
+.link, a {
+  color: #52adc9;
+}
+a {
+  text-decoration: none;
 }
 .bg-pink-1 {
   background: linear-gradient(90deg, #d7aef5, #9fa3f4);
 }
 .pink-1 {
   color: #FDA9FF;
+}
+.white-8 {
+  color: rgba($color: #fff, $alpha: 0.8);
+}
+.title-1 {
+  margin: 30px 0 25px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);;
 }

@@ -1,9 +1,11 @@
 <script setup>
 import SectionBegin from "./section-begin.vue";
+import LeftGap from "./left-gap.vue";
+import SectionIntro from "./section-intro.vue";
 </script>
 
 <template>
-  <main>
+  <div class="main">
     <header class="al-c pt-2 pb-2">
       <img src="/img/logo.svg" height="50" class="mr-auto" />
       <span class="nav-btn hover-1" v-for="(txt, i) in headLinks" :key="i">{{
@@ -12,8 +14,16 @@ import SectionBegin from "./section-begin.vue";
       <div class="bg-pink-1 btn-1 bdrs-8 hover-1">Join</div>
     </header>
     <div class="pa-5"></div>
-    <SectionBegin></SectionBegin>
-  </main>
+    <SectionBegin />
+  </div>
+  <left-gap>
+    <div class="title-1">
+      <span>Event Introduction</span>
+    </div>
+  </left-gap>
+  <left-gap>
+    <SectionIntro />
+  </left-gap>
 </template>
 
 <script>
