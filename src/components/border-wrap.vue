@@ -24,7 +24,7 @@ export default {
     },
     minHeight: {
       type: String,
-      default: "190px",
+      default: "180px",
     },
   },
 };
