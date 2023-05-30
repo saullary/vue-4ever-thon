@@ -42,7 +42,7 @@ export default {
         },
         {
           img: "social-twitter.svg",
-          label: "Discord",
+          label: "Twitter",
           link: "https://twitter.com/4everland_org",
         },
         {

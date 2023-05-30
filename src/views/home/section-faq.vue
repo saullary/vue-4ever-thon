@@ -39,16 +39,32 @@
 <script>
 const list = [
   {
-    ques: "What's Template Center?",
-    ans: "An open-source Template Center co-built by community developers. Approved templates will be showcased in the Template Center. Users can easily deploy template websites with simple configurations. In the future, we will open up features like paid templates and template advertisements to motivate more developers to offer engaging and user-friendly templates.",
+    ques: "Who can participate in the Template-a-thon?",
+    ans: "The Template-a-thon is open to all developers, regardless of their level of experience.",
   },
   {
-    ques: "Any other activities to win rewards?",
-    ans: "Welcome to submit great template suggestions on 4EVERLAND Discord and win T4EVER .",
+    ques: "Can I collaborate with others on creating a frontend deployment template?",
+    ans: "Yes, collaborative projects are allowed. You can form teams and work together to create your submission.",
+  },
+  {
+    ques: "How long do I have to submit my template?",
+    ans: "This is a long-term grants. There is no time limit for now, you will be able to participate from 6.1",
+  },
+  {
+    ques: "Are there any restrictions on the number of templates I can submit?",
+    ans: "There is usually no limit on the number of templates you can submit. Feel free to submit as many templates as you'd like.",
+  },
+  {
+    ques: "Can I collaborate with others on creating a frontend deployment template?",
+    ans: "Yes, collaborative projects are allowed. You can form teams and work together to create your submission.",
+  },
+  {
+    ques: "Can I collaborate with others on creating a frontend deployment template?",
+    ans: "Yes, collaborative projects are allowed. You can form teams and work together to create your submission.",
   },
 ];
 list.forEach((it) => {
-  it.open = true;
+  it.open = false;
 });
 export default {
   data() {
