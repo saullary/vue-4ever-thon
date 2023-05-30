@@ -27,11 +27,10 @@
       </div>
       <div
         v-show="it.open"
-        class="mt-4 op-7 fz-14 lh-15"
+        class="mt-4 white-8 fz-14 lh-15"
         style="max-width: 600px"
-      >
-        {{ it.ans }}
-      </div>
+        v-html="it.ans"
+      ></div>
     </div>
   </div>
 </template>
@@ -55,12 +54,20 @@ const list = [
     ans: "There is usually no limit on the number of templates you can submit. Feel free to submit as many templates as you'd like.",
   },
   {
-    ques: "Can I collaborate with others on creating a frontend deployment template?",
-    ans: "Yes, collaborative projects are allowed. You can form teams and work together to create your submission.",
+    ques: "Are there any specific criteria for the template design or functionality?",
+    ans: "Yes, please check the evaluation standards listed above.",
   },
   {
-    ques: "Can I collaborate with others on creating a frontend deployment template?",
-    ans: "Yes, collaborative projects are allowed. You can form teams and work together to create your submission.",
+    ques: "Can I share my template after the Template-a-thon?",
+    ans: "Absolutely! The purpose of the hackathon is to collect and share an array of unique and engaging templates. You are encouraged to share your template with the community.",
+  },
+  {
+    ques: "How will the winners be determined?",
+    ans: "Winners will be selected by a panel of judges and 4EVERLAND core team based on various criteria, such as creativity, usability, etc and adherence to the event guidelines. ",
+  },
+  {
+    ques: "Where can I ask questions?",
+    ans: "Please post in help-forum on <a href='http://discord.gg/4everland' target='_blank'>Discord</a>.",
   },
 ];
 list.forEach((it) => {
