@@ -2,6 +2,7 @@
   <div style="min-width: 800px">
     <div class="d-flex">
       <border-wrap
+        color="blue"
         class="flex-1 ta-c"
         :class="{
           'mr-5': i < list.length - 1,

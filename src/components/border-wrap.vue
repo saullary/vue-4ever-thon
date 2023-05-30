@@ -2,7 +2,12 @@
   <div :class="'wrap-' + color">
     <div class="bg-1">
       <div class="bd-1">
-        <div class="pos-r" style="min-height: 190px">
+        <div
+          class="pos-r"
+          :style="{
+            'min-height': minHeight,
+          }"
+        >
           <slot></slot>
         </div>
       </div>
@@ -16,6 +21,10 @@ export default {
     color: {
       type: String,
       default: "pink",
+    },
+    minHeight: {
+      type: String,
+      default: "190px",
     },
   },
 };

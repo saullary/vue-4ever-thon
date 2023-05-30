@@ -4,6 +4,8 @@ import SectionIntro from "./section-intro.vue";
 import SectionBenefit from "./section-benefit.vue";
 import SectionTpl from "./section-tpl.vue";
 import SectionSupport from "./section-support.vue";
+import SectionFaq from "./section-faq.vue";
+import SectionSocial from "./section-social.vue";
 </script>
 
 <template>
@@ -50,6 +52,13 @@ import SectionSupport from "./section-support.vue";
     <SectionSupport />
   </auto-wrap>
 
+  <SectionFaq />
+
+  <div class="pa-7"></div>
+  <div class="main">
+    <SectionSocial />
+  </div>
+
   <div class="pa-8"></div>
 </template>
 
@@ -80,8 +89,9 @@ header {
       display: none;
     }
   }
-  // .btn-1 {
-  //   padding: 8px 12px;
-  // }
+  .btn-1 {
+    padding: 8px 12px;
+    font-size: 15px;
+  }
 }
 </style>
