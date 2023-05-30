@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex" style="width: 120%">
+  <div class="d-flex" style="width: 110%; min-width: 900px">
     <div class="flex-1">
       <border-wrap>
         <div class="lh-17 pos-a top-0 z-10" style="max-width: 330px">

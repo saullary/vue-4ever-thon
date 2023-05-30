@@ -1,29 +1,56 @@
 <script setup>
 import SectionBegin from "./section-begin.vue";
-import LeftGap from "./left-gap.vue";
 import SectionIntro from "./section-intro.vue";
+import SectionBenefit from "./section-benefit.vue";
+import SectionTpl from "./section-tpl.vue";
+import SectionSupport from "./section-support.vue";
 </script>
 
 <template>
+  <div class="pa-4"></div>
+  <div class="pos-s top-0 z-100 bg-1">
+    <div class="main">
+      <header class="al-c pt-4 pb-4">
+        <img src="/img/logo.png" height="30" class="mr-auto" />
+        <span class="nav-btn hover-1" v-for="(txt, i) in headLinks" :key="i">{{
+          txt
+        }}</span>
+        <div class="bg-pink-1 btn-1 bdrs-8 hover-1">Join Now</div>
+      </header>
+    </div>
+  </div>
+
   <div class="main">
-    <header class="al-c pt-2 pb-2">
-      <img src="/img/logo.svg" height="50" class="mr-auto" />
-      <span class="nav-btn hover-1" v-for="(txt, i) in headLinks" :key="i">{{
-        txt
-      }}</span>
-      <div class="bg-pink-1 btn-1 bdrs-8 hover-1">Join</div>
-    </header>
     <div class="pa-5"></div>
     <SectionBegin />
   </div>
-  <left-gap>
+  <div class="main">
     <div class="title-1">
       <span>Event Introduction</span>
     </div>
-  </left-gap>
+  </div>
   <left-gap>
     <SectionIntro />
   </left-gap>
+  <left-gap>
+    <SectionBenefit />
+  </left-gap>
+
+  <div class="main">
+    <div class="title-1">Remarkable Templates</div>
+  </div>
+  <auto-wrap>
+    <SectionTpl />
+  </auto-wrap>
+
+  <div class="main">
+    <div class="title-1">Community Support</div>
+  </div>
+  <auto-wrap>
+    <SectionSupport />
+  </auto-wrap>
+
+  <div class="pa-8"></div>
 </template>
 
 <script>
@@ -49,13 +76,12 @@ header {
 }
 @media screen and (max-width: 800px) {
   header {
-    font-size: 15px;
     .nav-btn {
-      margin-right: 16px;
+      display: none;
     }
   }
-  .btn-1 {
-    padding: 8px 12px;
-  }
+  // .btn-1 {
+  //   padding: 8px 12px;
+  // }
 }
 </style>

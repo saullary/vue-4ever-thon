@@ -1,3 +1,13 @@
+<style lang="scss">
+.ov-a::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+.ov-a {
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* IE 10+ */
+}
+</style>
+
 <template>
   <div
     class="ov-a"
