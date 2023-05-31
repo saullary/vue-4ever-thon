@@ -2,6 +2,7 @@
   <div style="min-width: 800px">
     <div class="d-flex">
       <border-wrap
+        min-height="160px"
         class="flex-1 ta-c"
         :class="{
           'mr-5': i < list.length - 1,
@@ -12,15 +13,15 @@
         <h2 class="pink-1" :class="asMobile ? 'fz-25' : 'fz-35'">
           {{ it.title }}
         </h2>
-        <div class="op-8 fz-14 lh-15 mt-5" style="min-height: 120px">
+        <div class="op-8 fz-14 lh-15 mt-5" style="min-height: 90px">
           {{ it.desc }}
         </div>
-        <div class="mt-auto">
+        <div class="pos-r" style="bottom: -10px">
           <a :href="it.github" target="_blank">
-            <img src="/img/ic-github.svg" height="18" />
+            <img src="/img/ic-github.svg" height="22" />
           </a>
           <a :href="it.link" target="_blank" class="ml-5">
-            <img src="/img/ic-link.svg" height="18" />
+            <img src="/img/ic-link.svg" height="22" />
           </a>
         </div>
       </border-wrap>
