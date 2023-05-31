@@ -46,7 +46,7 @@ export default {
           link: "https://twitter.com/4everland_org",
         },
         {
-          img: "social-discord.svg",
+          img: "social-docs.svg",
           label: "Docs",
           link: "http://discord.gg/4everland",
         },
