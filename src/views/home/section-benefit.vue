@@ -6,10 +6,10 @@
         <div class="flex-1">
           <border-wrap color="yellow">
             <div class="pos-a z-10">
-              <h3>T4EVER Reward</h3>
+              <h3 class="pink-1">T4EVER Reward</h3>
               <div class="op-7 mt-4 lh-15 fz-14">
-                Special reward system allows users support template creators to
-                foster interaction and provide positive feedback.
+                Win 5,000 - 100,000 T4EVER based on template quality and
+                evaluation standards.
               </div>
             </div>
             <div class="pos-a" style="right: -28px; bottom: -28px">
@@ -18,7 +18,7 @@
           </border-wrap>
           <border-wrap color="green" class="mt-5">
             <div class="pos-a z-10">
-              <h3>Support Best Creators</h3>
+              <h3 class="pink-1">Support Best Creators</h3>
               <div class="op-7 mt-4 lh-15 fz-14">
                 Special reward system allows users support template creators to
                 foster interaction and provide positive feedback.
@@ -31,7 +31,7 @@
         </div>
         <div class="flex-1 ml-5">
           <border-wrap>
-            <h3>Exclusive Perks</h3>
+            <h3 class="pink-1">Exclusive Perks</h3>
             <div class="op-7 mt-4 lh-15 fz-14">
               <p>
                 Remarkable templates will be featured on a template ranking

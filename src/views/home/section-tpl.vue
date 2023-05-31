@@ -16,10 +16,10 @@
           {{ it.desc }}
         </div>
         <div class="mt-auto">
-          <a :href="it.github">
+          <a :href="it.github" target="_blank">
             <img src="/img/ic-github.svg" height="18" />
           </a>
-          <a :href="it.link" class="ml-5">
+          <a :href="it.link" target="_blank" class="ml-5">
             <img src="/img/ic-link.svg" height="18" />
           </a>
         </div>
@@ -43,19 +43,19 @@ export default {
         {
           title: "Web3 Page",
           desc: "Consolidates your social media interactions from various channels into a single page.",
-          github: "",
+          github: "https://github.com/Recommended-Templates/web3-blog",
           link: "",
         },
         {
           title: "Chat GPT",
           desc: "ChatGPT (Beta), API Key required.",
-          github: "",
-          link: "",
+          github: "https://github.com/Recommended-Templates/chatgpt-tpl",
+          link: "https://chat-1.4everland.app/",
         },
         {
           title: "Linkland",
           desc: "Simplify sharing your social media and other information with a single link.",
-          github: "",
+          github: "https://github.com/Recommended-Templates/linkland",
           link: "",
         },
       ],
