@@ -12,7 +12,7 @@ body {
   font-family: Montserrat, serif; // 
 }
 body, .bg-1 {
-  background: #0e0e2a;
+  background: #0e0e2c;
   color: #fff;
 }
 * {
@@ -61,4 +61,14 @@ a {
   &:nth-child(2) {
     background: linear-gradient(95.1deg, #99A3F9 -12.83%, #459AF8 98.33%);;
   }
+  transform-origin: center;
+  transition: all ease 200ms;
+  &:hover {
+    transform: scale(.95);
+  }
+}
+
+video {
+  mix-blend-mode: screen;
+  pointer-events: none;
 }

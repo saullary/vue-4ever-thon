@@ -20,9 +20,17 @@
           'd-flex': !asMobile,
         }"
       >
-        <border-wrap color="blue" class="flex-1">
+        <border-wrap color="blue" background="none" class="flex-1">
           <div class="pos-center">
-            <img src="/img/begin-mass.png" height="190" />
+            <!-- <img src="/img/begin-mass.png" height="190" /> -->
+            <video
+              src="/mp4/222.mp4"
+              style="height: 190px"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
           </div>
         </border-wrap>
         <border-wrap class="flex-1" :class="asMobile ? 'mt-5' : 'ml-5'">
@@ -36,7 +44,7 @@
       </div>
     </div>
     <div class="flex-1" :class="asMobile ? 'mt-5' : 'ml-5'">
-      <border-wrap color="blue">
+      <border-wrap color="blue" background="none">
         <div class="pos-center">
           <img src="/img/begin-ball.png" height="190" />
         </div>
