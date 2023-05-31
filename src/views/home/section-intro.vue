@@ -13,7 +13,7 @@
     </div>
     <div class="flex-2 ml-5">
       <border-wrap color="blue">
-        <h3>How to join?</h3>
+        <h3 class="pink-1">How to join?</h3>
         <div class="mt-4 fz-13 lh-15 white-8">
           Join by logging in to GitHub, locating our 4EVERLAND Templates
           repository, and submitting your pull request (PR) following the
