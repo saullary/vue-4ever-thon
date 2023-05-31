@@ -8,10 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "el-col": "^1.0.1",
-    "element-plus": "^2.3.5",
     "vue": "^3.3.2",
-    "vue-g-row-col": "^0.3.0",
     "vue-router": "^4.2.0",
     "vuex": "^4.1.0"
   },
