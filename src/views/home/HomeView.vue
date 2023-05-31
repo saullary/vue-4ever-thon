@@ -21,7 +21,12 @@ import SectionSocial from "./section-social.vue";
           :key="i"
           >{{ it.text }}</span
         >
-        <div class="bg-pink-1 btn-1 bdrs-8 hover-2">Join Now</div>
+        <a
+          class="bg-pink-1 btn-1 bdrs-8 hover-2"
+          href="https://github.com/4everland/Templates"
+          target="_blank"
+          >Join Now</a
+        >
       </header>
     </div>
   </div>
