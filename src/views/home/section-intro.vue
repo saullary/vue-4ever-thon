@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex" style="min-width: 800px">
+  <div class="d-flex" style="min-width: 850px">
     <div class="flex-1">
       <border-wrap>
         <div class="lh-17 pos-a top-0 z-10" style="max-width: 330px">
@@ -21,7 +21,21 @@
           after your submission to win T4EVER. For more details, please visit
           <a href="">here</a>.
         </div>
+        <div class="x-center" style="bottom: -10px">
+          <img src="/img/intro-join.png" height="70" />
+        </div>
       </border-wrap>
     </div>
   </div>
 </template>
+
+<script>
+import { mapState } from "vuex";
+export default {
+  computed: {
+    ...mapState({
+      asMobile: (s) => s.clientWidth < 800,
+    }),
+  },
+};
+</script>
