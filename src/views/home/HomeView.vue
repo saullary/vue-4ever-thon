@@ -14,9 +14,13 @@ import SectionSocial from "./section-social.vue";
     <div class="main">
       <header class="al-c pt-4 pb-4">
         <img src="/img/logo.png" height="30" class="mr-auto" />
-        <span class="nav-btn hover-1" v-for="(txt, i) in headLinks" :key="i">{{
-          txt
-        }}</span>
+        <span
+          class="nav-btn hover-1"
+          @click="onNav(it)"
+          v-for="(it, i) in headLinks"
+          :key="i"
+          >{{ it.text }}</span
+        >
         <div class="bg-pink-1 btn-1 bdrs-8 hover-1">Join Now</div>
       </header>
     </div>
@@ -26,7 +30,8 @@ import SectionSocial from "./section-social.vue";
     <div class="pa-5"></div>
     <SectionBegin />
   </div>
-  <div class="main">
+
+  <div class="main" ref="intro">
     <div class="title-1">
       <span>Event Introduction</span>
     </div>
@@ -34,7 +39,8 @@ import SectionSocial from "./section-social.vue";
   <auto-wrap>
     <SectionIntro />
   </auto-wrap>
-  <left-gap>
+
+  <left-gap ref="benefit">
     <SectionBenefit />
   </left-gap>
 
@@ -45,14 +51,14 @@ import SectionSocial from "./section-social.vue";
     <SectionTpl />
   </auto-wrap>
 
-  <div class="main">
+  <div class="main" ref="support">
     <div class="title-1">Community Support</div>
   </div>
   <auto-wrap>
     <SectionSupport />
   </auto-wrap>
 
-  <SectionFaq />
+  <SectionFaq ref="faq" />
 
   <div class="pa-7"></div>
   <div class="main">
@@ -66,8 +72,36 @@ import SectionSocial from "./section-social.vue";
 export default {
   data() {
     return {
-      headLinks: ["Introduction", "Benefits", "Judges", "FAQ"],
+      headLinks: [
+        {
+          text: "Introduction",
+          ref: "intro",
+        },
+        {
+          text: "Benefits",
+          ref: "benefit",
+        },
+        {
+          text: "Support",
+          ref: "support",
+        },
+        {
+          text: "FAQ",
+          ref: "faq",
+        },
+      ],
     };
+  },
+  methods: {
+    onNav(it) {
+      const ref = this.$refs[it.ref];
+      const el = ref.$el || ref;
+      // console.log(el.offsetTop);
+      window.scrollTo({
+        top: el.offsetTop - 100,
+        behavior: "smooth",
+      });
+    },
   },
 };
 </script>

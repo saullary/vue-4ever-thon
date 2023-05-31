@@ -69,7 +69,7 @@
           <li>Potential Impact</li>
           <li>Activity Level</li>
         </ul>
-        <div style="height: 160px"></div>
+        <div style="height: 152px"></div>
         <div class="pos-a right-0" style="bottom: 100px">
           <img src="/img/benefit-checklist.png" width="200" />
         </div>
