@@ -50,7 +50,11 @@
         </div>
       </border-wrap>
       <div class="mt-5">
-        <a class="bg-btn hover-2 al-c" href="" target="_blank">
+        <a
+          class="bg-btn hover-2 al-c"
+          href="https://github.com/4everland/Templates"
+          target="_blank"
+        >
           <div>
             <h3 class="fz-25">Join Now</h3>
             <p class="mt-2 op-8">Submit template</p>

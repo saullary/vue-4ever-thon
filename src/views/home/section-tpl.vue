@@ -44,7 +44,7 @@ export default {
           title: "Web3 Page",
           desc: "Consolidates your social media interactions from various channels into a single page.",
           github: "https://github.com/Recommended-Templates/web3-blog",
-          link: "",
+          link: "https://4everblog.4everland.app/",
         },
         {
           title: "Chat GPT",
@@ -56,7 +56,7 @@ export default {
           title: "Linkland",
           desc: "Simplify sharing your social media and other information with a single link.",
           github: "https://github.com/Recommended-Templates/linkland",
-          link: "",
+          link: "https://4everlinkland.4everland.app/",
         },
       ],
     };

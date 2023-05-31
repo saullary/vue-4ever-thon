@@ -17,9 +17,13 @@
         <div class="mt-4 fz-13 lh-15 white-8">
           Join by logging in to GitHub, locating our 4EVERLAND Templates
           repository, and submitting your pull request (PR) following the
-          <a href="">README.md</a> guidelines. Don't forget to apply for grants
-          after your submission to win T4EVER. For more details, please visit
-          <a href="">here</a>.
+          <a href="https://github.com/4everland/Templates" target="_blank"
+            >README.md</a
+          >
+          guidelines. Don't forget to apply for grants after your submission to
+          win T4EVER. For more details, please visit
+          <a href="https://forms.gle/pQ14y488WyLCrhRd6" target="_blank">here</a
+          >.
         </div>
         <div class="x-center" style="bottom: -10px">
           <img src="/img/intro-join.png" height="70" />

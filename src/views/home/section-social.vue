@@ -48,7 +48,7 @@ export default {
         {
           img: "social-docs.svg",
           label: "Docs",
-          link: "http://discord.gg/4everland",
+          link: "https://github.com/4everland/Templates",
         },
       ],
     };
