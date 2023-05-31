@@ -48,7 +48,7 @@ export default {
         {
           img: "social-docs.svg",
           label: "Docs",
-          link: "https://github.com/4everland/Templates",
+          link: "https://docs.4everland.org/hositng/guides/site-deployment/hosting-templates",
         },
       ],
     };
