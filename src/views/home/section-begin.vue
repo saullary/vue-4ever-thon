@@ -6,8 +6,10 @@
   >
     <div class="flex-2">
       <border-wrap>
-        <h1 class="fz-50 pos-a z-10">TEMPLATE-A-THON</h1>
-        <div class="fz-30 op-9 pos-a btm-0 left-0 z-10">1 JUNE - 31 JUNE</div>
+        <h1 class="fz-40 pink-1 pos-a z-10">TEMPLATE-A-THON</h1>
+        <div class="fz-25 op-9 pos-a btm-0 left-0 z-10">
+          Starting June 1, 2023
+        </div>
         <div class="pos-a" style="right: -20px; top: -30px">
           <img src="/img/begin-pc.png" height="220" />
         </div>
