@@ -22,15 +22,15 @@
       >
         <border-wrap color="blue" background="none" class="flex-1">
           <div class="pos-center">
-            <!-- <img src="/img/begin-mass.png" height="190" /> -->
-            <video
+            <img src="/mp4/1.gif" height="190" />
+            <!-- <video
               src="/mp4/222.mp4"
               style="height: 190px"
               autoplay
               muted
               loop
               playsinline
-            ></video>
+            ></video> -->
           </div>
         </border-wrap>
         <border-wrap class="flex-1" :class="asMobile ? 'mt-5' : 'ml-5'">

@@ -58,10 +58,8 @@ import SectionSocial from "./section-social.vue";
 
   <div class="main" ref="support">
     <div class="title-1">Community Support</div>
-  </div>
-  <auto-wrap>
     <SectionSupport />
-  </auto-wrap>
+  </div>
 
   <SectionFaq ref="faq" />
 

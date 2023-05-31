@@ -1,21 +1,14 @@
 <template>
-  <div style="min-width: 960px">
-    <div class="d-flex">
-      <border-wrap
-        min-height="100px"
-        color="blue"
-        class="flex-1 ta-c"
-        :class="{
-          'mr-5': i < list.length - 1,
-        }"
-        v-for="(it, i) in list"
-        :key="i"
-      >
-        <div class="pos-center">
-          <img :src="'/img/' + it.img" :height="it.height || 100" />
-        </div>
-      </border-wrap>
-    </div>
+  <div>
+    <el-row gutter="20">
+      <el-col :span="8" :md="4" v-for="(it, i) in list" :key="i">
+        <border-wrap min-height="100px" color="blue" class="mb-5">
+          <div class="pos-center">
+            <img :src="'/img/' + it.img" :height="it.height || 100" />
+          </div>
+        </border-wrap>
+      </el-col>
+    </el-row>
   </div>
 </template>
 
@@ -31,12 +24,13 @@ export default {
   data() {
     return {
       list: [
-        // {
-        //   img: "sup-buidler.png",
-        // },
-        // {
-        //   img: "sup-perma.png",
-        // },
+        {
+          img: "sup-buidler.png",
+          height: 44,
+        },
+        {
+          img: "sup-perma.png",
+        },
         {
           img: "sup-lens.png",
         },
@@ -55,10 +49,11 @@ export default {
         },
         {
           img: "sup-mole.png",
+          height: 80,
         },
-        // {
-        //   img: "sup-tintin.png",
-        // },
+        {
+          img: "sup-tintin.png",
+        },
       ],
     };
   },
