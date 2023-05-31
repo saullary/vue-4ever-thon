@@ -30,7 +30,7 @@
           </border-wrap>
         </div>
         <div class="flex-1 ml-5">
-          <border-wrap>
+          <border-wrap min-height="442px">
             <h3 class="pink-1">Exclusive Perks</h3>
             <div class="op-7 mt-4 lh-15 fz-14">
               <p>
@@ -44,11 +44,7 @@
                 and experts on Web3.
               </p>
             </div>
-            <div
-              :style="{
-                height: asMobile ? '152px' : '216px',
-              }"
-            ></div>
+
             <div class="pos-a" style="right: -20px; bottom: -20px">
               <img src="/img/benefit-gift.png" height="160" />
             </div>
@@ -58,7 +54,7 @@
     </div>
     <div class="flex-2 ml-5">
       <div class="title-1">Evaluation Standards</div>
-      <border-wrap color="blue">
+      <border-wrap color="blue" min-height="442px">
         <ul class="lh-2 fz-15 op-9 ml-4">
           <li>Originality</li>
           <li>Innovation</li>
@@ -69,11 +65,10 @@
           <li>Potential Impact</li>
           <li>Activity Level</li>
         </ul>
-        <div style="height: 152px"></div>
         <div class="pos-a right-0" style="bottom: 100px">
           <img src="/img/benefit-checklist.png" width="200" />
         </div>
-        <div class="mt-5 d-flex pr-9 fz-13">
+        <div class="pos-a btm-0 left-0 w100p d-flex pr-9 fz-13">
           <span>⚠️</span>
           <span class="ml-2 op-8 pr-5"
             >The 4EVERLAND core team and judges' evaluation determine rankings

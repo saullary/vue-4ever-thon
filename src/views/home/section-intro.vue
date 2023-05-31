@@ -6,7 +6,7 @@
           Join <span class="pink-1">4EVERLAND</span> Template-a-thon to enrich
           the Template Center with an array of unique and engaging templates.
         </div>
-        <div class="y-center op-6" style="right: 0px">
+        <div class="y-center op-9" style="right: 0px">
           <img src="/img/intro-circle.png" height="200" />
         </div>
       </border-wrap>
@@ -26,7 +26,7 @@
           >.
         </div>
         <div class="x-center" style="bottom: -10px">
-          <img src="/img/intro-join.png" height="70" />
+          <img src="/img/intro-join.png" height="75" />
         </div>
       </border-wrap>
     </div>

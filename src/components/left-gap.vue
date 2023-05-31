@@ -43,7 +43,7 @@ export default {
   },
   methods: {
     getLeft() {
-      const len = Math.max(40, this.clientWidth - 1100);
+      const len = Math.max(40, this.clientWidth - 1000);
       this.left = parseInt(len / 2) + "px";
     },
   },
