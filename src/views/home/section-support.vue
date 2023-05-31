@@ -1,7 +1,8 @@
 <template>
-  <div style="min-width: 800px">
+  <div style="min-width: 960px">
     <div class="d-flex">
       <border-wrap
+        min-height="100px"
         color="blue"
         class="flex-1 ta-c"
         :class="{
@@ -11,7 +12,7 @@
         :key="i"
       >
         <div class="pos-center">
-          <img :src="'/img/' + it.img" height="150" />
+          <img :src="'/img/' + it.img" :height="it.height || 100" />
         </div>
       </border-wrap>
     </div>
@@ -38,6 +39,16 @@ export default {
         },
         {
           img: "sup-kepler.png",
+        },
+        {
+          img: "sup-rainbow.png",
+          height: 32,
+        },
+        {
+          img: "sup-seedao.png",
+        },
+        {
+          img: "sup-mole.png",
         },
       ],
     };
