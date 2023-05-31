@@ -13,7 +13,7 @@
               </div>
             </div>
             <div class="pos-a" style="right: -28px; bottom: -28px">
-              <img src="/img/benefit-cash.png" height="100" />
+              <img src="/img/benefit-cash.png" height="120" />
             </div>
           </border-wrap>
           <border-wrap color="green" class="mt-5">
@@ -25,7 +25,7 @@
               </div>
             </div>
             <div class="pos-a" style="right: -28px; bottom: -28px">
-              <img src="/img/benefit-coffee.png" height="110" />
+              <img src="/img/benefit-coffee.png" height="130" />
             </div>
           </border-wrap>
         </div>
@@ -46,11 +46,11 @@
             </div>
             <div
               :style="{
-                height: asMobile ? '152px' : '236px',
+                height: asMobile ? '152px' : '216px',
               }"
             ></div>
             <div class="pos-a" style="right: -20px; bottom: -20px">
-              <img src="/img/benefit-gift.png" height="150" />
+              <img src="/img/benefit-gift.png" height="160" />
             </div>
           </border-wrap>
         </div>

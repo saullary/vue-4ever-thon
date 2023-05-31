@@ -31,9 +31,9 @@ import SectionSocial from "./section-social.vue";
       <span>Event Introduction</span>
     </div>
   </div>
-  <left-gap>
+  <auto-wrap>
     <SectionIntro />
-  </left-gap>
+  </auto-wrap>
   <left-gap>
     <SectionBenefit />
   </left-gap>

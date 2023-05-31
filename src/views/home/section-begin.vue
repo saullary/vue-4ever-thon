@@ -8,8 +8,8 @@
       <border-wrap>
         <h1 class="fz-50 pos-a z-10">TEMPLATE-A-THON</h1>
         <div class="fz-30 op-9 pos-a btm-0 left-0 z-10">1 JUNE - 31 JUNE</div>
-        <div class="y-center" style="right: -20px">
-          <img src="/img/begin-computer.png" height="220" />
+        <div class="pos-a" style="right: -20px; top: -30px">
+          <img src="/img/begin-pc.png" height="220" />
         </div>
       </border-wrap>
       <div
@@ -19,8 +19,8 @@
         }"
       >
         <border-wrap color="blue" class="flex-1">
-          <div class="y-center" style="right: -20px">
-            <img src="/img/begin-mass.png" height="220" />
+          <div class="pos-center">
+            <img src="/img/begin-mass.png" height="190" />
           </div>
         </border-wrap>
         <border-wrap class="flex-1" :class="asMobile ? 'mt-5' : 'ml-5'">
@@ -36,7 +36,7 @@
     <div class="flex-1" :class="asMobile ? 'mt-5' : 'ml-5'">
       <border-wrap color="blue">
         <div class="pos-center">
-          <img src="/img/begin-ball.png" height="240" />
+          <img src="/img/begin-ball.png" height="190" />
         </div>
       </border-wrap>
       <div class="mt-5">
