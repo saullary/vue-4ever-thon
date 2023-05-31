@@ -30,6 +30,7 @@ export default {
         },
         {
           img: "sup-perma.png",
+          height: 76,
         },
         {
           img: "sup-lens.png",
