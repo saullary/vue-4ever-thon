@@ -31,6 +31,12 @@ export default {
   data() {
     return {
       list: [
+        // {
+        //   img: "sup-buidler.png",
+        // },
+        // {
+        //   img: "sup-perma.png",
+        // },
         {
           img: "sup-lens.png",
         },
@@ -50,6 +56,9 @@ export default {
         {
           img: "sup-mole.png",
         },
+        // {
+        //   img: "sup-tintin.png",
+        // },
       ],
     };
   },

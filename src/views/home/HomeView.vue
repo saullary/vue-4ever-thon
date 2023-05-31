@@ -21,7 +21,7 @@ import SectionSocial from "./section-social.vue";
           :key="i"
           >{{ it.text }}</span
         >
-        <div class="bg-pink-1 btn-1 bdrs-8 hover-1">Join Now</div>
+        <div class="bg-pink-1 btn-1 bdrs-8 hover-2">Join Now</div>
       </header>
     </div>
   </div>

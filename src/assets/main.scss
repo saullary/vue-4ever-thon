@@ -2,6 +2,7 @@
 @import 'box';
 @import 'pos';
 @import 'text';
+@import 'col';
 
 @font-face {
   font-family: 'Montserrat';
@@ -61,6 +62,9 @@ a {
   &:nth-child(2) {
     background: linear-gradient(95.1deg, #99A3F9 -12.83%, #459AF8 98.33%);;
   }
+}
+.hover-2 {
+  cursor: pointer;
   transform-origin: center;
   transition: all ease 200ms;
   &:hover {

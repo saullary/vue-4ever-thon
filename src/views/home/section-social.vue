@@ -5,7 +5,7 @@
     }"
   >
     <a
-      class="flex-1 d-b"
+      class="flex-1 d-b hover-2"
       :href="it.link"
       target="_blank"
       :class="{
