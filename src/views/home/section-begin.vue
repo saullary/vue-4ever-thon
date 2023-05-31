@@ -57,7 +57,11 @@
           </div>
           <img src="/img/ic-right.svg" height="18" class="d-b ml-auto" />
         </a>
-        <a class="bg-btn hover-2 al-c mt-5" href="" target="_blank">
+        <a
+          class="bg-btn hover-2 al-c mt-5"
+          href="https://forms.gle/pQ14y488WyLCrhRd6"
+          target="_blank"
+        >
           <div>
             <h3 class="fz-25">Apply Grants</h3>
             <p class="mt-2 op-8">Win T4EVER</p>
