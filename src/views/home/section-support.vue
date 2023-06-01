@@ -41,6 +41,10 @@ export default {
           img: "sup-rebase.png",
         },
         {
+          img: "sup-conf.png",
+          height: 34,
+        },
+        {
           img: "sup-buidler.png",
           height: 40,
         },
