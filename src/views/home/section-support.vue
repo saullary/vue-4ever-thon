@@ -32,6 +32,15 @@ export default {
     return {
       list: [
         {
+          img: "sup-dd.png",
+        },
+        {
+          img: "sup-seedao.png",
+        },
+        {
+          img: "sup-rebase.png",
+        },
+        {
           img: "sup-buidler.png",
           height: 40,
         },
@@ -43,28 +52,18 @@ export default {
           img: "sup-lens.png",
         },
         {
-          img: "sup-rebase.png",
-        },
-        {
           img: "sup-kepler.png",
-        },
-
-        {
-          img: "sup-seedao.png",
-        },
-        {
-          img: "sup-rainbow.png",
-          height: 32,
         },
         {
           img: "sup-mole.png",
           height: 80,
         },
         {
-          img: "sup-tintin.png",
+          img: "sup-rainbow.png",
+          height: 32,
         },
         {
-          img: "sup-dd.png",
+          img: "sup-tintin.png",
         },
       ],
     };

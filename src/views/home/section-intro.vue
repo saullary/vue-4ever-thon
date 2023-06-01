@@ -28,7 +28,7 @@
           >
           guidelines. Don't forget to apply for grants after your submission to
           win T4EVER. For more details, please visit
-          <a href="https://forms.gle/pQ14y488WyLCrhRd6" target="_blank">here</a
+          <a href="https://link.medium.com/a9s6LUTLgAb" target="_blank">here</a
           >.
         </div>
         <div class="x-center" style="bottom: -10px">
