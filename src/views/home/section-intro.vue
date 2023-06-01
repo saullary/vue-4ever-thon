@@ -26,7 +26,7 @@
           >.
         </div>
         <div class="x-center" style="bottom: -10px">
-          <img src="/img/intro-join.png" height="75" />
+          <img src="/img/intro-join.png" :height="asMobile ? 70 : 75" />
         </div>
       </border-wrap>
     </div>

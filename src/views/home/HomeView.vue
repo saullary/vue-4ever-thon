@@ -38,16 +38,16 @@ import SectionSocial from "./section-social.vue";
 
   <div class="main" ref="intro">
     <div class="title-1">
-      <span>Event Introduction</span>
+      <span>Introduction</span>
     </div>
   </div>
   <auto-wrap>
     <SectionIntro />
   </auto-wrap>
 
-  <left-gap ref="benefit">
+  <auto-wrap ref="benefit">
     <SectionBenefit />
-  </left-gap>
+  </auto-wrap>
 
   <div class="main">
     <div class="title-1">Remarkable Templates</div>

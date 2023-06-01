@@ -22,7 +22,7 @@
       >
         <border-wrap color="blue" background="none" class="flex-1">
           <div class="pos-center">
-            <img src="/mp4/1.gif" height="190" />
+            <img src="/mov/2.gif" height="190" />
             <!-- <video
               src="/mp4/222.mp4"
               style="height: 190px"
@@ -34,11 +34,11 @@
           </div>
         </border-wrap>
         <border-wrap class="flex-1" :class="asMobile ? 'mt-5' : 'ml-5'">
-          <h2 class="fz-16">TOTAL PRIZE POOL</h2>
+          <h2 class="fz-16">Total Prize Pool</h2>
           <h3 class="fz-40 mt-4">50,000,000</h3>
           <div class="pink-1 mt-1 op-8">T4EVER</div>
           <div class="pos-a" style="bottom: -30px; right: -30px">
-            <img src="/img/begin-coin.png" height="120" />
+            <img src="/img/begin-coin.png" height="140" />
           </div>
         </border-wrap>
       </div>
@@ -46,7 +46,7 @@
     <div class="flex-1" :class="asMobile ? 'mt-5' : 'ml-5'">
       <border-wrap color="blue" background="none">
         <div class="pos-center">
-          <img src="/img/begin-ball.png" height="190" />
+          <img src="/mov/1.gif" height="190" />
         </div>
       </border-wrap>
       <div class="mt-5">

@@ -1,10 +1,17 @@
 <template>
   <div>
-    <el-row gutter="20">
+    <el-row :gutter="20">
       <el-col :span="8" :md="4" v-for="(it, i) in list" :key="i">
-        <border-wrap min-height="100px" color="blue" class="mb-5">
+        <border-wrap
+          :min-height="asMobile ? '50px' : '70px'"
+          color="blue"
+          class="mb-5"
+        >
           <div class="pos-center">
-            <img :src="'/img/' + it.img" :height="it.height || 100" />
+            <img
+              :src="'/img/' + it.img"
+              :height="(it.height || 80) * (asMobile ? 0.6 : 1)"
+            />
           </div>
         </border-wrap>
       </el-col>
@@ -26,11 +33,11 @@ export default {
       list: [
         {
           img: "sup-buidler.png",
-          height: 44,
+          height: 40,
         },
         {
           img: "sup-perma.png",
-          height: 76,
+          height: 68,
         },
         {
           img: "sup-lens.png",
@@ -41,12 +48,13 @@ export default {
         {
           img: "sup-kepler.png",
         },
+
+        {
+          img: "sup-seedao.png",
+        },
         {
           img: "sup-rainbow.png",
           height: 32,
-        },
-        {
-          img: "sup-seedao.png",
         },
         {
           img: "sup-mole.png",
@@ -54,6 +62,9 @@ export default {
         },
         {
           img: "sup-tintin.png",
+        },
+        {
+          img: "sup-dd.png",
         },
       ],
     };
