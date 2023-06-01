@@ -1,5 +1,11 @@
 <template>
-  <div class="d-flex" style="min-width: 850px">
+  <div
+    class="d-flex"
+    :class="{
+      'mr-5': asMobile,
+    }"
+    style="min-width: 850px"
+  >
     <div class="flex-1">
       <border-wrap>
         <div class="lh-17 pos-a top-0 z-10" style="max-width: 330px">

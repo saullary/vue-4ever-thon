@@ -1,5 +1,11 @@
 <template>
-  <div class="d-flex mr-5" style="width: 105%; min-width: 910px">
+  <div
+    class="d-flex"
+    :class="{
+      'mr-5': asMobile,
+    }"
+    style="min-width: 900px"
+  >
     <div class="flex-3">
       <div class="title-1">Benefits</div>
       <div class="d-flex">

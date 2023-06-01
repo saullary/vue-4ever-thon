@@ -38,6 +38,14 @@
 <script>
 const list = [
   {
+    ques: "What's Template Center?",
+    ans: "An open-source Template Center co-built by community developers. Approved templates will be showcased in the Template Center.Users can easily deploy template websites with simple configurations. In the future, we will open up features like paid templates and template advertisements to motivate more developers to offer engaging and user-friendly templates.",
+  },
+  {
+    ques: "Any other activities to win rewards?",
+    ans: "Welcome to submit great template suggestions on 4EVERLAND Discord and win T4EVER .",
+  },
+  {
     ques: "Who can participate in the Template-a-thon?",
     ans: "The Template-a-thon is open to all developers, regardless of their level of experience.",
   },
@@ -47,7 +55,7 @@ const list = [
   },
   {
     ques: "How long do I have to submit my template?",
-    ans: "This is a long-term grants. There is no time limit for now, you will be able to participate from 6.1",
+    ans: "This is a long-term grants. There is no time limit for now, you will be able to participate from JUNE 1.",
   },
   {
     ques: "Are there any restrictions on the number of templates I can submit?",
@@ -59,7 +67,7 @@ const list = [
   },
   {
     ques: "Can I share my template after the Template-a-thon?",
-    ans: "Absolutely! The purpose of the hackathon is to collect and share an array of unique and engaging templates. You are encouraged to share your template with the community.",
+    ans: "Absolutely! The purpose of the Template-a-thon is to collect and share an array of unique and engaging templates. You are encouraged to share your template with the community.",
   },
   {
     ques: "How will the winners be determined?",
