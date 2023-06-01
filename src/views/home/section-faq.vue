@@ -13,7 +13,7 @@
     <div class="title-1" style="margin-bottom: 0">FAQ</div>
     <div class="faq-item" v-for="(it, i) in list" :key="i">
       <div class="al-c hover-1" @click="it.open = !it.open">
-        <div class="fz-18">{{ it.ques }}</div>
+        <div class="fz-16">{{ it.ques }}</div>
         <div class="ml-auto pa-2">
           <img
             src="/img/ic-up.svg"

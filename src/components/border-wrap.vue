@@ -86,4 +86,24 @@ div[class^="wrap-"] {
     );
   }
 }
+.wrap-pink2 {
+  background: #5865f2;
+  .bd-1 {
+    background: radial-gradient(
+      61.68% 82.31% at 50.12% 100%,
+      rgba(88, 101, 242, 0.25) 0%,
+      rgba(88, 101, 242, 0) 96.35%
+    );
+  }
+}
+.wrap-blue2 {
+  background: #1da1f3;
+  .bd-1 {
+    background: radial-gradient(
+      61.68% 82.31% at 50.12% 100%,
+      rgba(88, 101, 242, 0.25) 0%,
+      rgba(88, 101, 242, 0) 96.35%
+    );
+  }
+}
 </style>

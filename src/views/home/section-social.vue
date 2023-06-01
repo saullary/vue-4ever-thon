@@ -14,7 +14,7 @@
       v-for="(it, i) in list"
       :key="i"
     >
-      <border-wrap min-height="90px" :color="i == 1 ? 'blue' : 'pink'">
+      <border-wrap min-height="90px" :color="i == 1 ? 'blue2' : 'pink2'">
         <img :src="'/img/' + it.img" width="50" />
         <div class="ta-r mt-3">
           <span class="fz-25">{{ it.label }}</span>
