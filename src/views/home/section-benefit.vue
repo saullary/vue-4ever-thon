@@ -6,7 +6,7 @@
     }"
     style="min-width: 900px"
   >
-    <div class="flex-3">
+    <div class="flex-2">
       <div class="title-1">Benefits</div>
       <div class="d-flex">
         <div class="flex-1">
@@ -58,19 +58,21 @@
         </div>
       </div>
     </div>
-    <div class="flex-2 ml-5">
+    <div class="flex-1 ml-5">
       <div class="title-1">Evaluation Standards</div>
       <border-wrap color="blue" min-height="442px">
-        <ul class="lh-2 fz-15 op-9 ml-4">
-          <li>Originality</li>
-          <li>Innovation</li>
-          <li>Usability</li>
-          <li>Sustainability</li>
-          <li>Technical Capability</li>
-          <li>User Experience</li>
-          <li>Potential Impact</li>
-          <li>Activity Level</li>
-        </ul>
+        <div class="pos-a left-0 z-10">
+          <ul class="lh-2 fz-15 op-9 ml-4 l-space-1">
+            <li>Originality</li>
+            <li>Innovation</li>
+            <li>Usability</li>
+            <li>Sustainability</li>
+            <li>Technical Capability</li>
+            <li>User Experience</li>
+            <li>Potential Impact</li>
+            <li>Activity Level</li>
+          </ul>
+        </div>
         <div class="pos-a right-0" style="bottom: 100px">
           <img src="/img/benefit-checklist.png" width="200" />
         </div>
