@@ -41,7 +41,7 @@ export default {
           img: "sup-rebase.png",
         },
         {
-          img: "sup-conf.png",
+          img: "sup-conflux.jpg",
           height: 34,
         },
         {
